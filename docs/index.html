@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio - Desenvolvedor Web</title>
+    <title>Portfólio - Heclair Sousa</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/styles/style.css" />
   </head>
+
   <body>
     <!-- Header -->
     <header>
-      <nav>
+      <nav aria-label="Navegação principal">
         <ul>
           <li><a href="#sobre-mim">Sobre Mim</a></li>
           <li><a href="#portfolio">Portfólio</a></li>
@@ -18,202 +26,287 @@
       </nav>
     </header>
 
-    <!-- Seção Sobre Mim -->
-    <section id="sobre-mim" class="section">
-      <div class="sobre-mim-content">
-        <div class="texto">
-          <h2>Sobre Mim</h2>
+    <main>
+      <!-- Seção Sobre Mim -->
+      <section id="sobre-mim" class="section">
+        <div class="sobre-mim-content">
+          <div class="texto">
+            <h1>Heclair Sousa</h1>
+            <h2>Desenvolvedor Web & Procurement Specialist</h2>
+
           <p>
-            Olá, me chamo Heclair sou formado em Engenharia de Produção pela
-            ETEP Faculdades, possuo MBA em Logistica e Supply Chain pela
-            Universidade Anhembi Morumbi e pela sinergia e oportunidades de
-            melhoria que a área de procurement proporciona estou me formando em
-            Desenvolvimento de Software Multiplataforma pela ETEC Professor
-            Francisco Moura.
+            Olá, me chamo Heclair. Sou formado em Engenharia de Produção pela ETEP 
+            Faculdades, tenho MBA em Logística e Supply Chain pela Universidade Anhembi 
+            Morumbi e sou Desenvolvedor de Software Multiplataforma pela FATEC 
+            (conclusão dezembro de 2025).
           </p>
 
           <p>
-            Venho atuando na área de Compras desde 2016 tendo atuado em
-            multinacionais de grande porte como CAOA Chery, Bayer, Cielo e Ball.
-            Meus projetos e entregas sempre foram focados em redução de custo
-            através da metodologia strategic sourcing nas categorias de RH,
-            Facilities e Tecnologia. Atualmente possuo um desafio de
-            implementação de processos e harmonização de dados Globais entre
-            América do Norte e Europa desenvolvendo sistemas low code com Power
-            Apps e gerando insights com Power BI e Qlik Sense.
+            Atuo na área de Compras desde 2016, tendo trabalhado em multinacionais de 
+            grande porte como CAOA Chery, Bayer, Cielo e Ball. Meus projetos sempre foram 
+            focados em redução de custos utilizando a metodologia 
+            <strong>Strategic Sourcing</strong> em categorias como RH, Facilities e 
+            Tecnologia. Atualmente, atuo na harmonização de processos globais entre 
+            América do Norte e Europa, desenvolvendo soluções low code e dashboards 
+            analíticos para apoiar a tomada de decisão.
           </p>
 
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/heclairsousa/" target="_blank">
-              <img src="src/img/linkedin_home.png" alt="LinkedIn" />
-            </a>
-            <a href="https://github.com/heclair" target="_blank">
-              <img src="src/img/github.png" alt="GitHub" />
-            </a>
+
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/heclairsousa/" target="_blank">
+                <img src="src/img/linkedin_home.png" alt="LinkedIn" />
+              </a>
+              <a href="https://github.com/heclair" target="_blank">
+                <img src="src/img/github.png" alt="GitHub" />
+              </a>
+            </div>
+          </div>
+
+          <div class="foto">
+            <img src="src/img/profile_pic.jpeg" alt="Foto de perfil" />
           </div>
         </div>
-        <!-- Fim da div.texto -->
+      </section>
 
-        <div class="foto">
-          <img src="src/img/profile_pic.jpeg" alt="Foto do Desenvolvedor" />
-        </div>
-      </div>
-    </section>
+      <!-- Seção Portfólio -->
+      <section id="portfolio" class="section">
+        <h2>Portfólio</h2>
 
-    <!-- Seção Portfólio -->
-    <section id="portfolio" class="section">
-      <h2>Portfólio</h2>
+        <div class="portfolio-list">
 
-      <div class="portfolio-list">
-        <div class="project-box">
-          <h3>Treinamento Metodologia Ágil</h3>
-          <img src="src/img/gif_projeto_1.gif" alt="Gif projeto um" />
+          <!-- PROJETO 1 -->
+          <div class="project-box">
+            <h3>Treinamento Metodologia Ágil</h3>
 
-          <p>
-            O projeto tinha como objetivo a criação de um site utilizando HTML,
-            CSS e o framework BootStrap para a apresentação de um treinamento de
-            metodologia ágil para os colaboradores da Fatec Jacareí.
-          </p>
-          <p>
-            Neste projeto houve a oportunidade de obter o primeiro contato com a
-            metodologia ágil de projeto, utilizando as ferramentas Kanban e
-            Scrum, além de aprender a utilizar o framework BootStrap e ser capaz
-            de gerenciar a equipe na posição de Scrum Master.
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/docs"
-              >Documentação do Projeto</a
+            <div class="tech-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">Bootstrap</span>
+            </div>
+
+            <img src="src/img/gif_projeto_1.gif" alt="gif projeto" />
+
+            <p>
+              O projeto tinha como objetivo a criação de um site utilizando HTML,
+              CSS e o framework Bootstrap para a apresentação de um treinamento de
+              metodologia ágil para os colaboradores da Fatec Jacareí.
+            </p>
+            <p>
+              Neste projeto houve a oportunidade de obter o primeiro contato com a
+              metodologia ágil de projeto, utilizando as ferramentas Kanban e
+              Scrum, além de aprender a utilizar o framework BootStrap e ser capaz
+              de gerenciar a equipe na posição de Scrum Master.
+            </p>
+
+            <p>
+              <a href="https://github.com/ThePerryDev/docs" target="_blank">Documentação do Projeto</a>
+            </p>
+            <p>
+              <a href="https://github.com/ThePerryDev/Web" target="_blank">Repositório</a>
+            </p>
+          </div>
+
+          <!-- PROJETO 2 -->
+          <div class="project-box">
+            <h3>Bike Pass</h3>
+
+            <div class="tech-tags">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">PostgreSQL</span>
+            </div>
+
+            <img src="src/img/gif_figma_bike_pass.gif" alt="gif bike pass" />
+
+            <p>
+              Com o objetivo de atender o nosso Stakeholder Gen App o projeto
+              consistia no desenvolvimento de uma plataforma onde usuários podem
+              disponibilizar suas bicicletas para locação.
+            </p>
+            <p>
+              O projeto foi desenvolvido utilizando o framework React para o
+              frontend e TypeScript com Node e banco de dados PostgreSQL para o
+              backend. Neste projeto houve a oportunidade de aprofundar o
+              conhecimento em controllers, persistência de banco de dados,
+              implementação de CRUD e navegação.
+            </p>
+
+            <p>
+              <a href="https://github.com/ThePerryDev/bikepass-documentation">
+                Documentação do Projeto
+              </a>
+            </p>
+            <p>
+              <a href="https://github.com/ThePerryDev/bikepass">Repositório</a>
+            </p>
+          </div>
+
+          <!-- PROJETO 3 -->
+          <div class="project-box">
+            <h3>Satélite</h3>
+
+            <div class="tech-tags">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Power BI</span>
+            </div>
+
+            <img src="src/img/visionaDashboard.png" alt="dashboard" />
+
+            <p>
+              O projeto Satélite tinha como objetivo atender as necessidades da
+              empresa Visiona, que foi o stakeholder do projeto. O objetivo
+              primário deste desenvolvimento era prover um sistema de gestão de
+              produtividade das atividades dos colaboradores, oferecendo os
+              principais KPIs solicitados.
+            </p>
+            <p>
+              Neste desenvolvimento houve foco no uso das tecnologias React com
+              TypeScript e o primeiro contato da equipe com banco de dados não
+              relacional, optando-se pelo MongoDB. Para exibição dos KPIs,
+              utilizamos Power BI e Material UI.
+            </p>
+
+            <p><a href="https://github.com/ThePerryDev/visiona-documentation">Documentação</a></p>
+            <p><a href="https://github.com/ThePerryDev/satelite">Repositório</a></p>
+          </div>
+
+          <!-- PROJETO 4 -->
+          <div class="project-box">
+            <h3>NutriPerry</h3>
+
+            <div class="tech-tags">
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+
+            <img src="src/img/nutryperry.JPG" alt="nutri perry" />
+
+            <p>
+              Com o objetivo de desenvolver uma aplicação móvel para a área da
+              saúde, onde o usuário é capaz de fazer a gestão do seu consumo
+              calórico, a equipe The Perry Dev desenvolveu o aplicativo móvel
+              "NutryPerry".
+            </p>
+            <p>
+              Aprendi a utilizar o framework React Native e liderei o
+              desenvolvimento do backend, incluindo a arquitetura de dados.
+              Utilizamos banco de dados não relacional para armazenar as
+              informações dos usuários, além de uma API para autenticação de login
+              e consulta à tabela nutricional Open Food Facts.
+            </p>
+
+            <p><a href="https://github.com/ThePerryDev/NutriPerry">Documentação</a></p>
+            <p><a href="https://github.com/ThePerryDev/NutriPerry">Repositório</a></p>
+          </div>
+
+          <!-- PROJETO 5 -->
+          <div class="project-box">
+            <h3>Hyperion</h3>
+
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">CBERS</span>
+            </div>
+
+            <img src="src/img/hyperionVisiona.jpg" alt="hyperion" />
+
+            <p>
+              Com base no desafio apresentado pela FATEC, a solução proposta pela
+              The PerryDev consiste em criar um aplicativo web onde o usuário pode
+              realizar o mapeamento automático de cicatrizes de queimadas em
+              imagens do sensor WFI a bordo dos satélites CBERS4, CBERS4A e
+              Amazônia 1.
+            </p>
+            <p>
+              Neste projeto tive a responsabilidade pelo desenvolvimento e
+              treinamento do algoritmo que realizou o treinamento para
+              identificação e classificação de cicatrizes de queimada, podendo me
+              aprofundar no aprendizado de Python e me dedicar aos conteúdos de
+              machine learning.
+            </p>
+
+            <p><a href="https://github.com/ThePerryDev/Hyperion-project">Documentação</a></p>
+            <p><a href="https://github.com/ThePerryDev/Hyperion-project">Repositório</a></p>
+          </div>
+
+          <!-- PROJETO 6 -->
+          <div class="project-box">
+            <h3>MindCare</h3>
+
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">PLN</span>
+              <span class="tech-tag">TF-IDF</span>
+              <span class="tech-tag">React Native</span>
+            </div>
+
+            <video
+              controls
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              class="mindcare-video"
             >
-          </p>
-          <p><a href="https://github.com/ThePerryDev/Web">Repositório</a></p>
+              <source src="src/img/mindcare.mp4" type="video/mp4" />
+            </video>
+
+            <p>
+              O MindCare é um aplicativo focado em bem-estar emocional que utiliza
+              um chatbot inteligente para apoiar o usuário no acompanhamento do
+              seu estado emocional ao longo do tempo.
+              A solução identifica o sentimento predominante
+              nas mensagens enviadas e sugere trilhas de exercícios que ajudam o usuário a
+              compreender suas emoções e lidar com elas de forma saudável. Em situações
+              mais sensíveis, o aplicativo também recomenda a busca por apoio profissional
+              e fornece informações sobre o Centro de Valorização da Vida (CVV).
+            </p>
+
+            <p>
+              No projeto MindCare, atuei no desenvolvimento do backend em Python utilizando
+              FastAPI, sendo responsável pela criação da API de comunicação entre o app e o
+              modelo de Inteligência Artificial. Desenvolvemos um pipeline completo de
+              Processamento de Linguagem Natural (PLN) para classificação de emoções em
+              português, utilizando técnicas como limpeza de texto, tokenização e vetorização
+              com TF-IDF. Também treinamos um classificador supervisionado capaz de
+              identificar emoções predominantes nas mensagens do usuário e retornar, além da
+              emoção detectada, níveis de confiança e alertas de risco emocional. Por fim,
+              realizei a integração total da API com o aplicativo móvel desenvolvido em React
+              Native, garantindo respostas rápidas, seguras e adequadas à experiência do
+              usuário.
+            </p>
+
+            <p><a href="https://github.com/ThePerryDev/MindCare">Documentação</a></p>
+            <p><a href="https://github.com/ThePerryDev/MindCare">Repositório</a></p>
+          </div>
+
         </div>
+      </section>
 
-        <div class="project-box">
-          <h3>Bike Pass</h3>
-          <img src="src/img/gif_figma_bike_pass.gif" alt="Gif projeto um" />
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2>Minhas Skills</h2>
 
-          <p>
-            Com o objetivo de atender o nosso Stakeholder Gen App o projeto
-            consistia no desenvolvimento de uma plataforma onde usuários podem
-            disponibilizar suas bicicletas para locação.
-          </p>
-          <p>
-            O projeto foi desenvolvido utilizando o framework React para o
-            frontend e TypeScript com Node e banco de dados PostgreSQL para o
-            backend. Neste projeto houve a oportunidade de aprofundar o
-            conhecimento em controllers, persistência de banco de dados,
-            implementação de CRUD e navegação.
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/bikepass-documentation"
-              >Documentação do Projeto</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/bikepass">Repositório</a>
-          </p>
+        <div class="skills-list">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">React</div>
+          <div class="skill">Node.js</div>
+          <div class="skill">Git</div>
+          <div class="skill">Inglês</div>
         </div>
+      </section>
+    </main>
 
-        <div class="project-box">
-          <h3>Satélite</h3>
-          <img src="src/img/visionaDashboard.png" alt="Dashboard Visiona" />
-
-          <p>
-            O projeto Satélite tinha como objetivo atender as necessidades da
-            empresa Visiona, que foi o stakeholder do projeto. O objetivo
-            primário deste desenvolvimento era prover um sistema de gestão de
-            produtividade das atividades dos colaboradores, oferecendo os
-            principais KPIs solicitados.
-          </p>
-          <p>
-            Neste desenvolvimento houve foco no uso das tecnologias React com
-            TypeScript e o primeiro contato da equipe com banco de dados não
-            relacional, optando-se pelo MongoDB. Para exibição dos KPIs,
-            utilizamos Power BI e Material UI.
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/visiona-documentation"
-              >Documentação do Projeto</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/satelite">Repositório</a>
-          </p>
-        </div>
-
-        <div class="project-box">
-          <h3>NutriPerry</h3>
-          <img src="src/img/nutryperry.JPG" alt="NutriPerry App" />
-
-          <p>
-            Com o objetivo de desenvolver uma aplicação móvel para a área da
-            saúde, onde o usuário é capaz de fazer a gestão do seu consumo
-            calórico, a equipe The Perry Dev desenvolveu o aplicativo móvel
-            "NutryPerry".
-          </p>
-          <p>
-            Aprendi a utilizar o framework React Native e liderei o
-            desenvolvimento do backend, incluindo a arquitetura de dados.
-            Utilizamos banco de dados não relacional para armazenar as
-            informações dos usuários, além de uma API para autenticação de login
-            e consulta à tabela nutricional Open Food Facts.
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/NutriPerry"
-              >Documentação do Projeto</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/NutriPerry">Repositório</a>
-          </p>
-        </div>
-
-        <div class="project-box">
-          <h3>NutriPerry</h3>
-          <img src="src/img/hyperionVisiona.jpg" alt="Hyperion App" />
-
-          <p>
-            Com base no desafio apresentado pela empresa FATEC, a solução
-            proposta pela The PerryDev consiste em criar um aplicativo web onde
-            o usuário pode realizar o mapeamento automático de cicatrizes de
-            queimadas em imagens do sensor WFI a bordo dos satélites CBERS4,
-            CBERS4A e Amazônia 1, permitindo o monitoramento de áreas afetadas
-            por queimadas com maior eficiência e precisão na geração de dados
-            críticos para gestores ambientais, pesquisadores e formuladores de
-            políticas públicas..
-          </p>
-          <p>
-            Neste projeto tive a responsabilidade pelo desenvolvimento e
-            treinamento do algoritmo que realizou o treinamento para
-            identificação e classificação de cicatrizes de queimada, podendo me
-            aprofundar no aprendizado de python e me dedicar aos contéudos de
-            machine learning.
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/Hyperion-project"
-              >Documentação do Projeto</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/ThePerryDev/Hyperion-project"
-              >Repositório</a
-            >
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Seção Skills -->
-    <section id="skills" class="section">
-      <h2>Minhas Skills</h2>
-      <div class="skills-list">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">React</div>
-        <div class="skill">Node.js</div>
-        <div class="skill">Git</div>
-        <div class="skill">Inglês</div>
-      </div>
-    </section>
+    <footer>
+      <p>Portfólio Acadêmico • Desenvolvido por Heclair Sousa • FATEC 2025</p>
+    </footer>
   </body>
 </html>
